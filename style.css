@@ -1,0 +1,97 @@
+.body {
+    display: flex;
+    margin: 0;
+}
+
+.topbar {
+    background-color: rgb(21, 31, 109);
+    display: flex;
+    align-items: center; 
+    position: relative;
+    height: 100px;
+    padding: 15px 30px;
+}
+
+.logo {
+    position: absolute;
+    left: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.search {
+    position: absolute;
+    right: 25%;
+}
+
+.halla {
+    display: flex;
+    text-align: center; 
+    color: rgb(255, 255, 255);
+    font-size: 80px;
+    font-weight: 800px;
+    margin: 0;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3); 
+}
+
+.bottombar {
+    position: relative;
+    background-color: rgb(112, 115, 114, 0.8);
+    font-size: 30px;
+    font-weight: 700px;
+}
+
+main {
+    display: flex;
+}
+
+.sidebar {
+    width: 250px; 
+    background-color: rgb(248, 249, 250);
+    border-right: 5px solid rgb(133, 113, 77);
+    padding: 20px 20px;
+}
+
+.sidebar > nav > ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.sidebar > nav > ul > li {
+    margin-bottom: 10px; 
+}
+
+.sidebar > nav > ul > li > a {
+    display: block; 
+    text-decoration: none;
+    color: rgb(51, 51, 51);
+    padding: 100px 15px;
+    border-radius: 8px; 
+    font-weight: 500px;
+    transition: all 0.5s ease;
+}
+
+.sidebar > nav > ul > li > a:hover {
+    background-color: rgb(155, 203, 235);
+    color: rgb(255, 255, 255);
+    padding-left: 25px; 
+}
+
+.content > img {
+    width: 100%;
+}
+
+.bottombar > div > button {
+    position: absolute;
+    bottom: 5px;
+    right: 5px;
+}
+
+#name {
+    margin-top: 0;
+}
+
+#copyright {
+    margin: 0;
+}
